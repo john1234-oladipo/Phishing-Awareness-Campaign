@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Simulation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Phishing Simulation</h1>
+        <p>You received an email from "support@example.com". Click the link below to verify your account.</p>
+        <a href="/feedback?action=clicked" class="btn">Verify Account</a>
+        <a href="/feedback?action=ignored" class="btn btn-secondary">Ignore Email</a>
+    </div>
+</body>
+</html>
