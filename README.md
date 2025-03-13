@@ -89,11 +89,39 @@ The goal of this project is to create an interactive website or app that simulat
 - **Engagement**: Interactive simulations and gamification elements keep users engaged and motivated to learn.
 
 ---
+## Dependencies
+The project requires the following dependencies:
+**`requirements.txt`**
+```plaintext
+Flask==2.3.2
+
+## Running the Application
+
+1. Save all files in the correct project structure.
+2. Run the Flask app:
+ ```bash
+   python app.py
+3. Open your browser and navigate to http://127.0.0.1:5000/.
+
+## How It Works
+
+1. **Homepage:** Users start by visiting the homepage and clicking **"Start Simulation."**
+2. **Simulation Page:** Users are presented with a simulated phishing email and two options:
+   - **Click the link.**
+   - **Ignore the email.**
+3. **Feedback Page:**
+   - If the user **clicks the link**, they are shown a warning message explaining the risks.
+   - If the user **ignores the email**, they are congratulated for making the right choice.
+4. **Return to Home:** Users can return to the homepage to restart the simulation.
 
 ## Future Enhancements
-- **Advanced Simulations**: Include voice phishing (vishing) and social engineering scenarios.
-- **Multi-Language Support**: Expand the platform to reach a global audience.
-- **Integration with Security Tools**: Provide tips on using email filters, antivirus software, and password managers.
+
+- Add more phishing scenarios (e.g., fake login pages, SMS phishing).
+- Track user progress and scores using a database.
+- Implement gamification (e.g., badges, leaderboards).
+- Include voice phishing (vishing) and social engineering scenarios.
+- Expand the platform to reach a global audience.
+- Provide tips on using email filters, antivirus software, and password managers.
 
 ---
 
